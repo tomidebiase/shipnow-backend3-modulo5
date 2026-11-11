@@ -1,0 +1,22 @@
+{
+  "name": "shipnow-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "API ShipNow con arquitectura por capas",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.0",
+    "winston": "^3.19.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
